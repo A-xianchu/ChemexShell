@@ -1,6 +1,26 @@
-# ChemexShell
-Chemex的一键部署脚本
-***
+# ChemexShell - Chemex一键部署脚本
+
+[Chemex Github 开源地址](https://github.com/celaraze/chemex)
+
+## 开源协议
+
+ChemexShell遵循 [GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议。
+
+## 可用版本
+
+v1.0
+
+## 适用
+
+纯净无环境的Cetnos
+
+## 部署列表（v1.0版本）
+
+| Centos        | Ubuntu         | Fedora         |
+| ------------- | -------------- | -------------- |
+| Docker        | 当前不提供服务 | 当前不提供服务 |
+| Docker-Mysql  | \              | \              |
+| Docker-Chemex | \              | \              |
 
 ## 使用
 
@@ -21,20 +41,14 @@ rm -rf chemex.sh && wget http://include-cloud.test.upcdn.net/chemex.sh && chmod 
 ```shell
 rm -rf chemex.sh
 ```
-***
-
 
 # chemex | 一键部署脚本开发文档
-
-***
 
 作者：仙（提醒过节小助手）
 
 GitHub：A-xianchu
 
-***
-
-## V1.1
+## V1.0
 
 首先**感谢官方群内：时顺利、鼏図 两位大佬提供的帮助**
 
@@ -66,7 +80,6 @@ docker exec [容器id] mysql -h[服务器地址] -P[端口] -u[用户名] -p[密
 
 ```shell
 #注意，在使用此命令时，mysql会报出在使用命令操作不安全的Wraing提示，不必理会即可
-
 docker exec mysql-test mysql -h127.0.0.1 -P3306 -uroot -p123456 -e "create database chemex;"
 ```
 
