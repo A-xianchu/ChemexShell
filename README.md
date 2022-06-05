@@ -1,5 +1,29 @@
 # ChemexShell
 Chemex的一键部署脚本
+***
+
+## 使用
+
+使用wget一键下载脚本并启动
+
+```shell
+wget http://include-cloud.test.upcdn.net/chemex.sh && chmod +x chemex.sh && bash chemex.sh
+```
+
+更新脚本
+
+```shell
+rm -rf chemex.sh && wget http://include-cloud.test.upcdn.net/chemex.sh && chmod +x chemex.sh && bash chemex.sh
+```
+
+删除脚本
+
+```shell
+rm -rf chemex.sh
+```
+***
+
+
 # chemex | 一键部署脚本开发文档
 
 ***
