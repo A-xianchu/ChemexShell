@@ -16,11 +16,11 @@ v1.0 v1.1
 
 ## 部署列表（v1.1版本）
 
-| Centos        | Ubuntu        | Fedora         | RHCL           | Arch(Manjaro)  | openSUSE       | Kali(凑数的)   |
-| ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
-| Docker        | Docker        | 不支持 | 不支持 | 不支持 | 不支持 | 不支持 |
-| Docker-Mysql  | Docker-Mysql  | \              | \              | \              | \              | \              |
-| Docker-Chemex | Docker-Chemex | \              | \              | \              | \              | \              |
+| Centos        | Ubuntu        | Fedora | RHCL   | Arch(Manjaro) | openSUSE | Kali(凑数的) |
+| ------------- | ------------- | ------ | ------ | ------------- | -------- | ------------ |
+| Docker        | Docker        | 不支持 | 不支持 | 不支持        | 不支持   | 不支持       |
+| Docker-Mysql  | Docker-Mysql  | \      | \      | \             | \        | \            |
+| Docker-Chemex | Docker-Chemex | \      | \      | \             | \        | \            |
 
 ## 使用
 
