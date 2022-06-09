@@ -18,7 +18,7 @@ v1.0 v1.1
 
 | Centos        | Ubuntu        | Fedora         | RHCL           | Arch(Manjaro)  | openSUSE       | Kali(凑数的)   |
 | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
-| Docker        | Docker        | 当前不提供服务 | 当前不提供服务 | 当前不提供服务 | 当前不提供服务 | 当前不提供服务 |
+| Docker        | Docker        | 不支持 | 不支持 | 不支持 | 不支持 | 不支持 |
 | Docker-Mysql  | Docker-Mysql  | \              | \              | \              | \              | \              |
 | Docker-Chemex | Docker-Chemex | \              | \              | \              | \              | \              |
 
