@@ -10,10 +10,6 @@ ChemexShell遵循 [GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html) 开源协�
 
 v1.0 v1.1
 
-## 适用
-
-纯净无环境的Cetnos
-
 ## 部署列表（v1.1版本）
 
 | Centos        | Ubuntu        | Fedora | RHCL   | Arch(Manjaro) | openSUSE | Kali(凑数的) |
