@@ -6,17 +6,13 @@
 
 ChemexShell遵循 [GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议。
 
-## 可用版本
+## 部署列表（v1.2版本）
 
-v1.0 v1.1
-
-## 部署列表（v1.1版本）
-
-| Centos        | Ubuntu        | Fedora | RHCL   | Arch(Manjaro) | openSUSE | Kali(凑数的) |
-| ------------- | ------------- | ------ | ------ | ------------- | -------- | ------------ |
-| Docker        | Docker        | 不支持 | 不支持 | 不支持        | 不支持   | 不支持       |
-| Docker-Mysql  | Docker-Mysql  | \      | \      | \             | \        | \            |
-| Docker-Chemex | Docker-Chemex | \      | \      | \             | \        | \            |
+| Centos        | Ubuntu        | Debian        | Fedora | RHCL   | Arch   | openSUSE | Kali   |
+| ------------- | ------------- | ------------- | ------ | ------ | ------ | -------- | ------ |
+| Docker        | Docker        | Docker        | 不支持 | 不支持 | 不支持 | 不支持   | 不支持 |
+| Docker-Mysql  | Docker-Mysql  | Docker-Mysql  | \      | \      | \      | \        | \      |
+| Docker-Chemex | Docker-Chemex | Docker-Chemex | \      | \      | \      | \        | \      |
 
 ## 使用
 
