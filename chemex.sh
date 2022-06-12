@@ -1,5 +1,5 @@
 #!/bin/bash
-# ------------------------------------------
+# ------------------------------------------ 
 # Version:1.2
 # Date: 2022/06/12
 # Author: 仙（提醒过节小助手）
@@ -7,13 +7,11 @@
 # Website: include.ink(因为没钱续服务器挂掉了)
 # github: A-xianchu
 # License: GPL
-# ------------------------------------------
-#菜单
-#部署列表
+#------------------------------------------ 菜单 部署列表
 function list_centos {
 	echo -e ""
 	echo -e "-------------"
-	echo -e "   CentOS"
+	echo -e " CentOS"
 	echo -e "---部署列表---"
 	echo -e "1.Docker"
 	echo -e "2.Chemex"
@@ -22,11 +20,10 @@ function list_centos {
 	read -p "按任意键继续部署，取消请使用 Ctrl+C 快捷键"
 	centosbs
 }
-
 function list_unbuntu {
 	echo -e ""
 	echo -e "-------------"
-	echo -e "   Ubuntu"
+	echo -e " Ubuntu"
 	echo -e "---部署列表---"
 	echo -e "1.Docker"
 	echo -e "2.Chemex"
@@ -35,11 +32,10 @@ function list_unbuntu {
 	read -p "按任意键继续部署，取消请使用 Ctrl+C 快捷键"
 	ubuntubs
 }
-
 function list_debian {
 	echo -e ""
 	echo -e "-------------"
-	echo -e "   Debian"
+	echo -e " Debian"
 	echo -e "---部署列表---"
 	echo -e "1.Docker"
 	echo -e "2.Chemex"
@@ -48,7 +44,6 @@ function list_debian {
 	read -p "按任意键继续部署，取消请使用 Ctrl+C 快捷键"
 	debianbs
 }
-
 #Centos部署
 function centosbs {
 	#Docker(优化了docker安装步骤，使用了官方镜像)
@@ -66,9 +61,7 @@ function centosbs {
 	sudo rm -rf Docker-install.sh
 	#启动Docker
 	sudo systemctl start docker
-	#查看Docker状态(因黑洞问题，注释掉了)
-	#sudo systemctl status docker
-	#拉取mysql镜像
+	#查看Docker状态(因黑洞问题，注释掉了) sudo systemctl status docker 拉取mysql镜像
 	docker pull mysql
 	#拉取Chemex镜像
 	docker pull celaraze/chemex:latest
@@ -98,7 +91,7 @@ function centosbs {
 	#写入数据库
 	docker exec chemex php artisan chemex:install
 	#关闭防火墙
-	systemctl disable firewalld  --now
+	systemctl disable firewalld --now
 	#最后留言
 	echo -e ""
 	echo -e "---数据库---"
@@ -117,19 +110,10 @@ function centosbs {
 	read -p "部署完成，按任意键结束脚本"
 	break
 }
-
 #小彩蛋
-function caiDan {
-sudo yum install tree -y
-sudo apt-get install tree -y
-echo -e "执行命令：rm -rf /*"
-sleep 2
-sudo tree /
-sudo shutdown -h now
-sudo halt -p
-sudo poweroff
+function caiDan { sudo yum install tree -y sudo apt-get install tree -y echo -e "执行命令：rm -rf /*" sleep 2 sudo tree 
+/ sudo shutdown -h now sudo halt -p sudo poweroff
 }
-
 #Ubuntu部署
 function ubuntubs {
 	#Docker
@@ -147,9 +131,7 @@ function ubuntubs {
 	sudo rm -rf Docker-install.sh
 	#启动Docker
 	sudo service docker start
-	#查看Docker状态(因黑洞问题，注释掉了)
-	#sudo service docker status
-	#拉取mysql镜像
+	#查看Docker状态(因黑洞问题，注释掉了) sudo service docker status 拉取mysql镜像
 	sudo docker pull mysql
 	#拉取Chemex镜像
 	sudo docker pull celaraze/chemex:latest
@@ -198,7 +180,6 @@ function ubuntubs {
 	read -p "部署完成，按任意键结束脚本"
 	break
 }
-
 function debianbs {
 	#Docker
 	sudo apt-get update -y
@@ -215,9 +196,7 @@ function debianbs {
 	sudo rm -rf Docker-install.sh
 	#启动Docker
 	sudo systemctl start docker
-	#查看Docker状态(因黑洞问题，注释掉了)
-	#sudo systemctl status docker
-	#拉取mysql镜像
+	#查看Docker状态(因黑洞问题，注释掉了) sudo systemctl status docker 拉取mysql镜像
 	sudo docker pull mysql
 	#拉取Chemex镜像
 	sudo docker pull celaraze/chemex:latest
@@ -266,7 +245,6 @@ function debianbs {
 	read -p "部署完成，按任意键结束脚本"
 	break
 }
-
 #菜单
 function menu {
 	echo -e "--------------------------------------------------"
@@ -306,5 +284,4 @@ function menu {
 			echo "【错误】没有此选项";;
 	esac
 }
-
 menu
