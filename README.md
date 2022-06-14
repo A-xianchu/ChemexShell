@@ -6,7 +6,7 @@
 
 ChemexShell遵循 [GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议。
 
-## 部署列表（v1.2版本）
+## 部署列表（v1.3版本）
 
 | Centos        | Ubuntu        | Debian        | Fedora | RHCL   | Arch   | openSUSE | Kali   |
 | ------------- | ------------- | ------------- | ------ | ------ | ------ | -------- | ------ |
