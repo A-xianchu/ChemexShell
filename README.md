@@ -19,13 +19,13 @@ ChemexShell遵循 [GPL3.0](https://www.gnu.org/licenses/gpl-3.0.html) 开源协�
 使用wget一键下载脚本并启动
 
 ```shell
-wget https://ghproxy.futils.com/https://github.com/A-xianchu/ChemexShell/blob/main/chemex.sh && chmod +x chemex.sh && bash chemex.sh
+wget https://ghproxy.com/https://raw.githubusercontent.com/A-xianchu/ChemexShell/main/chemex.sh && chmod +x chemex.sh && bash chemex.sh
 ```
 
 更新脚本
 
 ```shell
-rm -rf chemex.sh && wget https://ghproxy.futils.com/https://github.com/A-xianchu/ChemexShell/blob/main/chemex.sh && chmod +x chemex.sh && bash chemex.sh
+rm -rf chemex.sh && wget https://ghproxy.com/https://raw.githubusercontent.com/A-xianchu/ChemexShell/main/chemex.sh && chmod +x chemex.sh && bash chemex.sh
 ```
 
 删除脚本
